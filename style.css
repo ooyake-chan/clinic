@@ -1,0 +1,485 @@
+/* i{
+  speak:none;
+} */
+body{
+  background-color: #FAEEE7;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+}
+.wrapper{
+  width: 1000px;
+  margin: 0px auto;
+}
+nav{
+  background-color: white;
+  width: 156px;
+  /* height: 100%; */
+  /* height: 800px; */
+  margin-left: 80px;
+  margin-top: 0px;
+  float: left;
+  text-align: center;
+}
+.top-page-nav{
+  position: fixed;
+}
+.top-logo img{
+  width: 110px;
+}
+.top{
+  padding-top: 20px;
+}
+.name{
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.phone-nub{
+  font-size: 14px;
+  color: #FF8BA7;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.btn1{
+  display: inline-block;
+  height: 57px;
+  width: 110px;
+  background-color: #FF8BA7;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  line-height: 57px;
+  border-radius: 3px;
+  color: #33272A;
+  transition-property: background-color;
+  transition-duration: 0.7s;
+}
+.btn1:hover{
+  background-color: #FFC6C7;
+}
+
+.btn2{
+  display: inline-block;
+  height: 57px;
+  width: 110px;
+  border-top: 2px solid #FF8BA7;
+  border-bottom: 2px solid #FF8BA7;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  line-height: 57px;
+  color: #33272A;
+  transition: all 0.7s;
+}
+.btn2:hover{
+  background-color: #FAEEE7;
+}
+.accordion{
+  height: 205px;
+  margin-top: 0;
+  padding:32px 20px 7px 10px;
+  text-align: left;
+  list-style: none;
+  background-color: #FFC6C7;
+  /* display: none; */
+}
+
+.accordion li{
+  /* text-align: center; */
+  padding-bottom: 25px;
+  font-size: 14px;
+  
+}
+.accordion li:before{
+  content: "●";
+  color: #FF8BA7;
+}
+main{
+margin-left: 270px;
+padding-top: 20px;
+}
+.main-visual{
+  /* width: 557px; */
+  height: 570px;
+  background-image: url(img/top-img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+h1{
+  font-family: "Hannari";
+  font-size: 51px;
+  color: #33272A;
+  position: absolute;
+  top: 497px;
+  right: 177px;
+}
+h1 span{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 48px;
+
+}
+.title p{
+  text-align: right;
+
+}
+/* .ticker{
+  width: 748px;
+  height: 40px;
+  padding-left: 30px;
+  background-color: white;
+  opacity: 0.7;
+  line-height: 40px;
+} */
+.ticker-froat{
+  margin-top: 30px;
+  display:flex;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.ticker-froat p{
+  width: 70px;
+  margin: 0 20px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #33272A;
+}
+.ticker-froat p:hover{
+
+  color: #FF8BA7;
+}
+.ticker {
+  margin: 0 auto;
+  /* padding: 10px; */
+  width: 600px;
+  height: 40px;
+  text-align: left;
+  /* border: #ccc 1px solid; */
+  position: relative;
+  overflow: hidden;
+}
+.ticker-style{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.ticker a{
+  color: #33272A;
+}
+
+
+.ticker ul {
+  width: 100%;
+  /* position: relative; */
+  line-height: 40px;
+}
+
+.ticker ul li {
+  width: 100%;
+  display: none;
+  padding-left: 30px;
+
+}
+/* トップページコンテンツ */
+.top-contents{
+  width: 600px;
+  margin: 55px 0 55px 102px;
+  background-image: url(img/table-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  clear: both;
+}
+.first-float{
+  display: flex;
+}
+#top-first-p{
+  width:400px;
+}
+#top-first-img{
+  width:200px;
+  height: 200px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+}
+/* 診療時間   */
+.time-table{
+  width:550px;
+  height: 125px;
+  /* margin-bottom: 55px; */
+  border: 2px solid #FFC6C7;
+  border-radius: 3px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.time-table th{
+  background-color: #FFC6C7;
+  border: 2px solid #FFC6C7;
+}
+.time-table td{
+  border: 2px solid #FFC6C7;
+  text-align: center;
+  color: #33272A;
+}
+
+/* 診療案内 */
+.guides{
+  padding:30px 32px 30px 43px;
+  background-color:white;
+  color: #33272A;
+  margin-bottom: 55px;
+}
+.guide{
+  border-bottom: 2px dashed #FF8BA7;
+  padding-bottom: 40px;
+}
+h2{
+  margin: 0;
+  font-size: 30px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  letter-spacing: 3px;
+  background-image: url(img/icon1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#h2position-guide{
+  background-position: 113px;
+}
+#h2position-first{
+  background-position: 150px;
+}
+#h2position-time{
+  background-position: 125px;
+}
+#h2position-map{
+  background-position: 125px;
+}
+#h2position-doctor{
+  background-position: 185px;
+}
+#h2position-equ{
+  margin-bottom: 30px;
+  background-position: 125px;
+}
+#h2position-info{
+  margin-bottom: 30px;
+  background-position: 125px;
+}
+.guide h3{
+  margin-top: 45px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+.guide-p{
+  display: flex;
+}
+.guide p{
+  width: 350px;
+  margin-top: 0;
+  margin-right: 40px;
+  font-size: 14px;
+}
+.guide img{
+  width: 225px;
+}
+/* 院長あいさつ */
+.doctor{
+  border: none;
+}
+.doctor ul{
+  list-style: none;
+}
+.doctor li:before{
+  content: "●";
+  color: #FF8BA7;
+}
+/* 院内設備 */
+.equipment p{
+  width: auto;
+  margin-top: 0;
+  margin-right: 40px;
+  font-size: 14px;
+}
+.equipment h3{
+  margin-top: 45px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+/* お知らせ */
+.infomation{
+  border: none;
+}
+.infomation p{
+  width: auto;
+  margin-top: 0;
+  margin-right: 40px;
+  font-size: 14px;
+}
+/* .topbtn{
+  margin-top: 55px;
+  margin-bottom: 55px;
+} */
+.top-btn{
+  margin-top: 55px;
+  margin-bottom: 45px;
+  padding:5px 10px;
+  border-radius: 3px;
+  color:#33272A;
+  font-size: 14px;
+  background-color: #FF8BA7;
+  float: right;
+  transition-property: background-color;
+  transition-duration: 0.7s;
+}
+#topicon{
+  margin-left: 10px;
+}
+.top-btn:hover{
+  background-color: #FFC6C7;
+}
+.end-btn{
+  margin: 0;
+}
+.wrapper-end{
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+/* 院内設備 */
+.slider {
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  vertical-align: bottom;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.appear {
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0.2
+  }
+
+  100% {
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+      opacity: 0.2
+  }
+
+  100% {
+      opacity: 1
+  }
+}
+
+.slider i.fas {
+  color: rgba(25, 25, 25, 0.7);
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+}
+
+.slider i.fa-arrow-circle-right {
+  right: 2%;
+}
+
+.slider i.fa-arrow-circle-left {
+  left: 2%;
+}
+
+.thumbnail ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.thumbnail ul li {
+  margin: 10px 0;
+  width: 23.5%;
+  margin-right: 2%;
+  cursor: pointer;
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+}
+
+.thumbnail ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.thumbnail ul li:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.thumbnail ul li.selected {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.thumbnail ul li img {
+  width: 100%;
+}
+/* フッター部 */
+footer{
+  height: 175px;
+  background-color: white;
+  clear: both;
+  /* margin-top: 55px; */
+}
+#foot-wrapper{
+  width:1000px;
+  margin:0 auto;
+  padding-top: 20px;
+}
+.foot-info img{
+  width:110px;
+  float: left;
+}
+.foot-info{
+  width: 300px;
+  margin-left: 90px;
+  float: left;
+}
+.site-map{
+  float: right;
+}
+.site-map a{
+  margin-left: 60px;
+  color: #FF8BA7;
+}
+#footer-float{
+  width:300px;
+  font-size: 14px;
+}
+#footer-float p{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.copy-right{
+  clear: both;
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+}

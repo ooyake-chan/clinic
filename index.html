@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <base href="#">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+    <script>
+      $(function(){
+        var $totalHeight = $('.wrapper').outerHeight(true);
+        $('nav').css('height',$totalHeight+10);
+        // alert($('.wrapper').height());
+      });
+    </script>
+    <title>はしもと駅前クリニック-トップ</title>
+  </head>
+  <body>
+    <a id="contents-top"></a>
+    <div class="wrapper">
+      <nav class="top-page-nav">
+
+        <div class="top">
+          <div class="top-logo"><a href="index.html"><img src="img/top-logo.png" alt="ロゴマーク"></a></div>
+          <div class="top-info">
+            <p class="name">はしもと駅前<br>クリニック</p>
+            <p class="phone-nub">0120-444-444</p>
+          </div>
+
+          <div class="sidemenu">
+            <a class="btn1" href="#contents-time">診療時間</a>
+            <a class="btn1" href="#contents-first">初診の方へ</a>
+            <a class="btn1" href="guide.html">診療案内</a>
+            <!-- <p class="btn1 accordion-menu" tabindex="0">診療案内</p> -->
+            <!-- <ul class="accordion" role="tabpanel">
+              <li><a href="guide.html">診察案内</a></li>
+              <li><a href="guide.html#allergie">アレルギー性鼻炎</a></li>
+              <li><a href="guide.html#pediatrics">小児耳鼻咽喉科</a></li>
+              <li><a href="guide.html#hearingaid">補聴器の相談</a></li>
+              <li><a href="guide.html#checkup">お耳の健康診断</a></li>
+            </ul> -->
+            <a class="btn2" href="doctor.html">院長あいさつ</a>
+            <a class="btn2" href="equipment.html">院内設備</a>
+            <a class="btn2" href="#contents-map">アクセス</a>
+          </div>
+      </div>
+      </nav>
+
+      <main>
+        <div class="main-visual">
+          <h1>はしもと<span>駅前</span>クリニック</h1>
+        </div>
+        <div class="ticker-froat">
+          <p><a href="infomation.html">お知らせ</a></p>
+          <div class="ticker ticker-style" rel="slide">
+            <ul>
+            <li><a href="#1">2020 4/23 新型コロナウイルス感染症について</a></li>
+            <li><a href="#2">2020 3/20 3月27日休診となります</a></li>
+            <li><a href="#3">2019 12/20 インフルエンザワクチン残り少なくなりました</a></li>
+            <li><a href="#4">2019 12/3 年末年始の休診のおしらせ</a></li>
+            <li><a href="#5">2019 10/3 インフルエンザ予防接種開始します</a></li>
+            </ul>
+          </div><!--/.ticker-->
+        </div>
+        
+        <div class="top-contents">
+          <a id="contents-time"></a>
+          <h2 id="h2position-time">診療時間</h2>
+          <table class="time-table">
+            <tr>
+              <th>受付時間</th>
+              <th>月</th>
+              <th>火</th>
+              <th>水</th>
+              <th>木</th>
+              <th>金</th>
+              <th>土</th>
+              <th>日</th>
+            </tr>
+            <tr>
+              <td>9時～12時</td>
+              <td>○</td>
+              <td>○</td>
+              <td>○</td>
+              <td>休診</td>
+              <td>○</td>
+              <td>○</td>
+              <td>○</td>
+              
+            </tr>
+            <tr>
+              <td>14時～17時</td>
+              <td>○</td>
+              <td>○</td>
+              <td>○</td>
+              <td>休診</td>
+              <td>○</td>
+              <td>○</td>
+              <td>○</td>
+              
+            </tr>
+          </table>
+          <div class="topbtn">
+            <a href="#contents-top" class="top-btn">このページのトップへ<i id="topicon" class="fas fa-arrow-alt-circle-up"></i></a>
+          </div>
+        </div>
+
+        <div class="top-contents">
+          <a id="contents-first"></a>
+          <h2 id="h2position-first">初診の方へ</h2>
+            <div class="first-float">
+            <p id="top-first-p">木を伐って並べ、藤づるでからめ、それで街道の狭いのを補った。長い間にこの木曾路に起こって来た変化は、いくらかずつでも嶮岨な山坂の多いところを歩きよくした。そのかわり、大雨ごとにやって来る河水の氾濫が旅行を困難にする。そのたびに旅人は最寄り最寄りの宿場に逗留して、道路の開通を待つこともめずらしくない。この街道の変遷は幾世紀にわたる封建時代の発達をも、その制度組織の用心深さをも語っていた。鉄砲を改め女を改めるほど旅行者の取り締ま</p>
+            <img id="top-first-img" src="img/image01.png" alt="看護師の写真">
+            </div>
+          <div class="topbtn">
+            <a href="#contents-top" class="top-btn">このページのトップへ<i id="topicon" class="fas fa-arrow-alt-circle-up"></i></a>
+          </div>
+        </div>
+
+        <div class="top-contents">
+          <a id="contents-map" ></a>
+          <h2 id="h2position-map">アクセス</h2>
+          <p>木を伐って並べ、藤づるでからめ、それで街道の狭いのを補った。長い間にこの木曾路に起こって来た変化は、いくらかずつでも嶮岨な山坂の多いところを歩きよくした。そのかわり、大雨ごとにやって来る河水の氾濫が旅行を困難にする。そのたびに旅人は最寄り最寄りの宿場に逗留して、道路の開通を待つこともめずらしくない。この街道の変遷は幾世紀にわたる封建時代の発達をも、その制度組織の用心深さをも語っていた。鉄砲を改め女を改めるほど旅行者の取り締まりを厳重にした時代</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.332499504533!2d139.34273371525646!3d35.59486388021468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191d49e1e082fd%3A0xfbec8ced17ad4097!2z5qmL5pys6aeF!5e0!3m2!1sja!2sjp!4v1588404392362!5m2!1sja!2sjp" width="600" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="wrapper-end"></div>
+        <div class="topbtn">
+          <a href="#contents-top" class="top-btn end-btn" id="topButton">このページのトップへ<i id="topicon" class="fas fa-arrow-alt-circle-up"></i></a>
+        </div>
+        <div class="wrapper-end"></div>
+      </main>
+    </div>
+
+    <!-- <footer>
+      <div id="foot-wrapper">
+      <div class="foot-info">
+        <img src="img/top-logo.png" alt="ロゴマーク">
+          <div id="footer-float">
+          <p>はしもと駅前クリニック</p>
+          <p>0120-444-444</p>
+          <p>神奈川県相模原市555-550<br>橋本駅前ビル1F</p>
+        </div>
+      </div>
+      <div class="site-map">
+        <a href="index.html">トップページ</a>
+        <a href="guide.html">診療案内</a>
+        <a href="doctor.html">院長あいさつ</a>
+        <a href="#">院内設備</a>
+      </div>
+    </div>
+  </footer> -->
+  <div class="copy-right">copy right ooyake 2020</div>
+
+<!-- ニュースティッカーのコード -->
+<script src="script.js"></script>
+<!-- スムーズスクロールのコード -->
+<script>
+  //移動時間（1 = 1000分の1秒（1ミリ秒））
+const move_time = 500;
+
+//繰り返す回数（アニメーションの回数）の計算
+const end_time = move_time / 1000 * 60;
+
+//イージング計算式（ easeInOutQua ）
+const easing = function ( t, b, c, d) {
+  if ((t/=d/2) < 1) return c/2*t*t + b;
+  return -c/2 * ((--t)*(t-2) - 1) + b;
+};
+
+//移動関数（アニメーション実行関数）
+function pageScroll( pos ){
+  let xPos = window.pageXOffset
+    , yPos = window.pageYOffset
+    , moved = pos - yPos
+    , time = 1;
+  (function scrollMoved() {
+      window.scrollTo( xPos, easing( time, yPos, moved, end_time) );
+      time ++ ;
+      if ( time <= end_time ) {
+        window.requestAnimationFrame( scrollMoved );
+      }
+  })();
+};
+
+//ハッシュからエレメントを取得する関数
+function getElm( h ){
+    let deCode = decodeURI( h );
+    return document.querySelector( deCode + ',a[name="' + deCode.substr(1)  + '"]');
+}
+
+//移動先の位置を取得する関数
+function getPos( t ){
+  let tPos = t.getBoundingClientRect()
+  return tPos.top + window.pageYOffset;
+};
+
+//ページ内リンクを取得
+const entryPageLinks = document.querySelectorAll( 'a[href^="#"]' );
+
+//ページ内リンクにイベント登録
+if ( entryPageLinks.length ) {
+  for( var i = 0; entryPageLinks.length > i; i++ ) {
+    entryPageLinks[i].addEventListener( 'click', function(e){
+
+      let href = e.target.hash;
+      if ( ( href != '' ) && ( href != '#') ) {
+        let targetElm = getElm( href );
+        if ( targetElm ) {
+           ( e.preventDefault ) ? e.preventDefault(): e.returnValue = false;
+           pageScroll( getPos( targetElm ) );
+           return false;
+        }
+      }
+
+    });
+  }
+}
+</script>
+<!-- アコーディオンメニューのコード -->
+<script>
+  $(function(){
+    $('.accordion-menu').click(function(){
+      if($('.accordion').hasClass('open')){
+        $('.accordion').removeClass('open');
+        $('.accordion').slideUp();
+      } else{
+        $('.accordion').addClass('open');
+        $('.accordion').slideDown();
+        
+      }
+    })
+  });
+</script>
+<script>
+  $(function(){
+    
+    $('.accordion-menu').on("click keydown", function(e) {
+	if(typeof e.keyCode === "undefined" || e.keyCode === 13) {
+		if($('.accordion').hasClass('btnopen')){
+        $('.accordion').removeClass('btnopen');
+        $('.accordion').slideUp();
+      } else{
+        $('.accordion').addClass('btnopen');
+        $('.accordion').slideDown();
+        
+      }
+	}
+}); 
+  });
+</script>
+
+  </body>
+</html>
